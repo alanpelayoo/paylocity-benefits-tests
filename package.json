@@ -1,0 +1,15 @@
+{
+  "name": "paylocity-benefits-tests",
+  "version": "1.0.0",
+  "description": "UI and API test automation for Paylocity Benefits Dashboard",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test tests/ui/",
+    "test:api": "npx playwright test tests/api/",
+    "test:headed": "npx playwright test --headed",
+    "test:report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.42.0"
+  }
+}
