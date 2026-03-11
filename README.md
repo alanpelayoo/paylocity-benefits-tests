@@ -6,8 +6,8 @@ UI and API tests using Playwright with JavaScript.
 
 1. Clone the repo and navigate to the project folder:
    ```bash
-   Clone repo
-   cd paylocity-tests
+   git clone https://github.com/alanpelayoo/paylocity-benefits-tests.git
+   cd paylocity-benefits-tests
    ```
 
 2. Install dependencies:
